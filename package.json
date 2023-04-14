@@ -1,0 +1,15 @@
+{
+  "name": "module-10-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "KnightHawk1090"
+  },
+  "author": "E Partain",
+  "license": "MIT"
+}
