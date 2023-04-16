@@ -11,5 +11,8 @@
     "url": "KnightHawk1090"
   },
   "author": "E Partain",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
 }
