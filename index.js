@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 // import classes in ./lib/shopes.js
 const {triangle, square, circle} = require('./lib/shapes');
-const { default: Choices } = require('inquirer/lib/objects/choices');
+
 
 // write the SVG file using answers from user imputs
 function createFile(fileName, answers) {
@@ -19,7 +19,7 @@ function createFile(fileName, answers) {
     svgString += `${answers.shape}`;
 
     let shapeChoice; 
-    if (answers.shape === "triangel") {
+    if (answers.shape === "triangle") {
         shapeChoice = new triangle();
         svgString += `<polygon points = "150, 18 244, 182 56, 182" fill = "${answers.shapeBackGroundColor}"/>`;
 
